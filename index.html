@@ -1,22 +1,270 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+        <title>Hello, world!</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                        <a class="navbar-brand h1" href="#">MV</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav m-auto">
+                                        <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                        <i class="fas fa-home fa-lg"></i>
+                                                        <span class="sr-only">(current)</span>
+                                                </a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                                                        <a class="nav-link" href="#">Features</a>
+                                                </li> -->
+                                </ul>
+                                <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                                <a class="nav-link" target="_blank" href="mailto:mannueldp@gmail.com"
+                                                        data-toggle="tooltip" data-placement="bottom"
+                                                        title="mannueldp@gmail.com">
+                                                        <i class="fas fa-envelope"></i>
+                                                        <span class="sr-only">(current)</span>
+                                                </a>
+                                        </li>
+                                        <li class="nav-item active">
+                                                <a class="nav-link" target="_blank" href="https://t.me/MVictorLimeira"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Telegram">
+                                                        <i class="fab fa-telegram"></i>
+                                                        <span class="sr-only">(current)</span>
+                                                </a>
+                                        </li>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
+        <div class="container">
+                <div class="row mt-5">
+                        <div class="col-md-6 col-sm-12 align-self-center">
+                                <h1 style="font-size: 2.5rem; font-weight: 800; color: #333333;">
+                                        About me
+                                </h1>
+                                <p id="sub-headline-about-me"
+                                        style="font-size: 1.5rem; clear: both; font-weight: 100; text-rendering: optimizeLegibility; color: #666666;">
+                                        I'm a back end & mobile developer based in Natal, Brazil.
+                                </p>
+                                <p style="font-size: 1.2rem; font-weight: 300; color: #333333;">
+                                        What I love about <b style="font-weight: 500;">coding</b> is the fulfillment
+                                        felling right after soving a problem,
+                                        simple or complex, and beholding what was before emptiness being now complete:
+                                        It <b style="font-weight: 500;">is pure creation</b>.
+                                </p>
+                                <blockquote class="blockquote"
+                                        style="font-size: 0.8rem; font-weight: 300; color: #333333;">
+                                        <footer class="blockquote-footer">Mannuel Victor Limeira</footer>
+                                </blockquote>
+                        </div>
+                        <div class="col-md-6 col-sm-12 align-self-center">
+                                <img src="https://avatars2.githubusercontent.com/u/8471812?s=460&v=4"
+                                        class="img-fluid img-thumbnail" alt="Responsive image">
+                        </div>
+                </div>
+                <hr id="close-about" />
+                <div class="row mt-5 mb-3">
+                        <div class="col-md-12 col-sm-12 align-self-center">
+                                <h1 style="font-size: 2.5rem; font-weight: 800; color: #333333;">
+                                        Projects
+                                </h1>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="card-columns">
+                                <div class="card">
+                                        <img src="https://centraldepasseiosnatal.com/assets/img/logo-big.png"
+                                                class="card-img-top p-2" alt="Logo Central de passeios"
+                                                onerror="this.onerror=''; this.src='https:\\screenshotlayer.com/images/assets/placeholder.png';">
+                                        <div class="card-body">
+                                                <h5 class="card-title">Central de Passeios</h5>
+                                                <p class="card-text">
+                                                        Refactoring purchase flow and programming.
+                                                </p>
+                                                <p class="card-text">
+                                                        <small>(Website, project rescue)</small>
+                                                </p>
+                                                <p class="card-text text-muted">
+                                                        Alongside:
+                                                        <a href="https://www.interativadigital.com.br/" target="_blank"
+                                                                style="color: #6c757d; text-decoration: underline;">
+                                                                Interativa Digital
+                                                        </a>
+                                                </p>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #b94a48;">Angular 2+</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #8ac6d1;">Wirecard</span>
+                                                <p class="card-text"><small class="text-muted">
+                                                                Status: Live at <a
+                                                                        href="https://centraldepasseiosnatal.com"
+                                                                        target="_blank">centraldepasseiosnatal.com</a>.
+                                                        </small></p>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <img src="./images/webfarm_icon.png" class="card-img-top p-2"
+                                                alt="Webfarma logo"
+                                                onerror="this.onerror=''; this.src='https:\\screenshotlayer.com/images/assets/placeholder.png';">
+                                        <div class="card-body">
+                                                <h5 class="card-title">WebFarma</h5>
+                                                <p class="card-text">
+                                                        Mobile app to market water bottle and gas cylinder
+                                                        based on geolocation of the seller and buyer, splitting
+                                                        payment
+                                                        with Wirecard.
+                                                </p>
+                                                <p class="card-text">
+                                                        <small>(Rest API, Admin Panel, and 2 Mobile Apps)</small>
+                                                </p>
+                                                <p class="card-text text-muted">
+                                                        Alongside:
+                                                        <a href="https://www.interativadigital.com.br/" target="_blank"
+                                                                style="color: #6c757d; text-decoration: underline;">
+                                                                Interativa Digital
+                                                        </a>
+                                                </p>
+                                                <span class="badge badge-pill badge-info">Yii 2</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #666666;">Ionic 3</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #b94a48;">Angular 2+</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #8ac6d1;">Wirecard</span>
+                                                <p class="card-text"><small class="text-muted">
+                                                                Status: Live at <a href="https://webfarma.net.br"
+                                                                        target="_blank">webfarma.net.br</a>.
+                                                        </small></p>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <img src="https://miro.medium.com/max/484/1*JRMLdiqVq5bP9Fs6HEQVhw.png"
+                                                class="card-img-top p-2" alt="Webfarma logo"
+                                                onerror="this.onerror=''; this.src='https:\\screenshotlayer.com/images/assets/placeholder.png';">
+                                        <div class="card-body">
+                                                <h5 class="card-title">Blog (Medium)</h5>
+                                                <p class="card-text">
+                                                        Tutorials, thoughts and fellings about my
+                                                        carreer and technology.
+                                                </p>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #9656a1;">Mind</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #9fdfcd;">Experience</span>
+                                                <p class="card-text"><small class="text-muted">
+                                                                Status: Always in progress at <a
+                                                                        href="https://medium.com/@mannueldp"
+                                                                        target="_blank">medium.com/@mannueldp</a>.
+                                                        </small></p>
+                                        </div>
+                                </div>
+                                <div class="card text-center p-3">
+                                        <blockquote class="blockquote mb-0 card-body">
+                                                <p>The whole difference between construction and creation is
+                                                        exactly this:
+                                                        that a thing constructed can only be loved after it is
+                                                        constructed;
+                                                        but a thing created is loved before it exists.</p>
+                                                <footer class="blockquote-footer">
+                                                        <small class="text-muted">
+                                                                Charles Dickens
+                                                        </small>
+                                                </footer>
+                                        </blockquote>
+                                </div>
+                                <div class="card">
+                                        <div class="card-body">
+                                                <h5 class="card-title">Eu Quero</h5>
+                                                <p class="card-text">
+                                                        Mobile app to market water bottle and gas cylinder
+                                                        based on geolocation of the seller and buyer.
+                                                </p>
+                                                <p class="card-text text-muted">
+                                                        Alongside:
+                                                        <a href="https://www.interativadigital.com.br/" target="_blank"
+                                                                style="color: #6c757d; text-decoration: underline;">
+                                                                Interativa Digital
+                                                        </a>
+                                                </p>
+                                                <p class="card-text">
+                                                        <small>(Rest API, Admin Panel, and 2 Mobile Apps)</small>
+                                                </p>
+                                                <span class="badge badge-pill badge-info">Yii 2</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #666666;">Ionic 3</span>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #b94a48;">Angular 2+</span>
+                                                <p class="card-text"><small class="text-muted">Status: Client's
+                                                                approval.</small></p>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <img src="./images/comb10-icon.png" class="card-img-top p-5" alt="Webfarma logo"
+                                                onerror="this.onerror=''; this.src='https:\\screenshotlayer.com/images/assets/placeholder.png';">
+                                        <div class="card-body">
+                                                <h5 class="card-title">Combustível nota 10</h5>
+                                                <p class="card-text">
+                                                        Simple and fast private company hackathon to prototype
+                                                        future product.
+                                                </p>
+                                                <p class="card-text">
+                                                        Unused technology allowed, so I decided to give
+                                                        <a href="https://lumen.laravel.com/" target="_blank">Lumen</a> a chance.
+                                                </p>
+                                                <p class="card-text">
+                                                        <small>(Rest API)</small>
+                                                </p>
+                                                <span class="badge badge-pill badge-info"
+                                                        style="background-color: #FB7969;">Lumen</span>
+                                                <p class="card-text"><small class="text-muted">
+                                                                Status: Source code at <a
+                                                                        href="https://github.com/VictorLimeira/combustivelNota10-API"
+                                                                        target="_blank">github.com/VictorLimeira/combustivelNota10-API</a>.
+                                                        </small></p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+        <script>
+                $(document).ready(function () {
+                        $('[data-toggle="tooltip"]').tooltip();
+                });
+        </script>
+</body>
+
 </html>
